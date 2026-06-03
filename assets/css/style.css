@@ -153,7 +153,7 @@ a {
 
     position: relative;
 
-    padding-top: 90px;
+    padding-top: 140px;
     padding-bottom: 90px;
 }
 
@@ -689,6 +689,14 @@ footer::before {
     #skills::before,
     #projects::before {
         width: 92%;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .hero-section {
+        padding-top: 180px;
     }
 
 }
